@@ -1,0 +1,12 @@
+[package]
+name = "naive-file-crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = {version="3.0", features=["derive"]}
+aes = "0.7"
+sha2 = "0.10"
+rand = "0.8"
+num_cpus = "1.13"
+crossbeam-channel = "0.5"
